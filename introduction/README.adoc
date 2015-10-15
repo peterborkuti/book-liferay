@@ -2,7 +2,38 @@
 
 It is a task which was given me in our English lesson.
 
+Testing source
+
+[source,java,indent=0]
+----
+package common;
+
+import java.util.Random;
+
+public class Thinker01 implements Runnable {
+	int n = (new Random()).nextInt(10);
+	String sArr[] = {
+		"is woken up",
+		"thinking",
+		"got The number: " + n,
+		"done"
+	};
+
+	@Override
+	public void run() {
+		Util.writeAndSleep(sArr, 1000, 1000);
+	}
+
+}
+----
+
+
+
+
 Testing file include
+
+
+
 
 [source,java,indent=0]
 ----
