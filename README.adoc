@@ -7,10 +7,10 @@ Testing file include
 
 [source,java,indent=0]
 ----
-include::Util.java[]
+include::/Util.java[]
 ----
 
 [source,java,indent=4]
 ----
-include::Util.java[]
+include::./Util.java[]
 ----
