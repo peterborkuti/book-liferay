@@ -1,5 +1,16 @@
 = Liferay - Community, Company, Product
 
-It is a task which was given me in our Enlgish lesson.
+Testing file include
 
-Test linbe
+
+
+
+[source,java,indent=0]
+----
+include::Util.java[]
+----
+
+[source,java,indent=4]
+----
+include::Util.java[]
+----
